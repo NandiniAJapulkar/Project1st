@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Haven: Discover Your Next Adventure</title>
+    <style>
+        body {
+            background-color: #333;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #ff6347;
+            margin-top: 20px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .genre-list {
+            list-style-type: decimal;
+            color: #ffdd57;
+            text-align: left;
+            display: inline-block;
+            margin: 20px auto;
+        }
+        select, input[type="text"], button {
+            padding: 8px;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+        a {
+            color: #00ced1;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 10px;
+        }
+        a:hover {
+            color: #ff6347;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎬 Cinema Haven: Discover Your Next Adventure! 🎬</h1>
+
+    <div class="content">
+        <h2>Top Genres in Cinema</h2>
+        <ol class="genre-list">
+            <li>Action</li>
+            <li>Adventure</li>
+            <li>Horror</li>
+            <li>Comedy</li>
+            <li>Drama</li>
+        </ol>
+
+        <h2>Select Your Favorite Genre</h2>
+        <form>
+            <label for="genre">Choose a genre:</label>
+            <select id="genre" name="genre">
+                <option value="action">Action</option>
+                <option value="adventure">Adventure</option>
+                <option value="horror">Horror</option>
+                <option value="comedy">Comedy</option>
+                <option value="drama">Drama</option>
+            </select>
+
+            <br>
+
+            <label for="fav-genre">Enter your favorite genre:</label>
+            <input type="text" id="fav-genre" name="fav-genre" placeholder="e.g., Sci-Fi">
+
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+        <hr />
+        <hr />
+    
+
+        <h2>Explore some exciting genres</h2>
+        <a href="adventure.html" target="_blank">Adventure Movies</a>
+        <a href="horror.html" target="_blank">Horror Movies</a>
+    </div>
+</body>
+</html>
